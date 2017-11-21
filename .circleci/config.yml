@@ -19,7 +19,7 @@ jobs:
     steps:
       - checkout
 
-      - run: apt update && apt install -y tor
+      - run: sudo apt update && sudo apt install -y tor
 
       # Download and cache dependencies
       - restore_cache:
