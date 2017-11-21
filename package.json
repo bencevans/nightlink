@@ -1,0 +1,34 @@
+{
+  "name": "nightlink",
+  "version": "0.0.0",
+  "description": "Start and control a Tor instance",
+  "main": "src/index.js",
+  "dependencies": {
+    "split": "^1.0.1",
+    "which": "^1.3.0"
+  },
+  "devDependencies": {
+    "proxy-agent": "^2.1.0",
+    "puppeteer": "^0.13.0"
+  },
+  "scripts": {
+    "test": "node src/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bencevans/nightlink.git"
+  },
+  "keywords": [
+    "tor",
+    "onion",
+    "proxy",
+    "socks",
+    "control"
+  ],
+  "author": "Ben Evans <ben@bluechimp.io> (https://bencevans.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bencevans/nightlink/issues"
+  },
+  "homepage": "https://github.com/bencevans/nightlink#readme"
+}
