@@ -1,4 +1,4 @@
-# Nightlink [![CircleCI](https://circleci.com/gh/bencevans/nightlink.svg?style=svg)](https://circleci.com/gh/bencevans/nightlink)
+# Nightlink
 
 > Start and control a Tor instance.
 
