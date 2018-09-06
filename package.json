@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "proxy-agent": "3.0.1",
-    "puppeteer": "1.7.0"
+    "puppeteer": "1.8.0"
   },
   "scripts": {
     "test": "node src/test.js"
