@@ -8,7 +8,7 @@
     "which": "^1.3.0"
   },
   "devDependencies": {
-    "proxy-agent": "3.0.1",
+    "proxy-agent": "3.0.3",
     "puppeteer": "1.8.0"
   },
   "scripts": {
