@@ -61,7 +61,7 @@ class Nightlink extends EventEmitter {
      * Look for ready message
      */
     const readyListener = this.on('notice', (msg) => {
-      if (msg === 'Tor has successfully opened a circuit. Looks like client functionality is working.') {
+      if (msg.match(/100%/)) {
         this.isReady = true;
         this.emit('ready');
       }
