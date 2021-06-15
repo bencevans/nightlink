@@ -11,7 +11,7 @@ const run = async () => {
 
   var opts = {
     method: 'GET',
-    host: 'jsonip.org',
+    host: 'api.ipify.org',
     path: '/',
     agent: new ProxyAgent(proxyUri)
   };
@@ -25,7 +25,7 @@ const run = async () => {
 
   // the rest works just like any other normal HTTP request 
   http.get(opts, onresponse);
-}
+};
 
 
-run()
+run().then(console.log).catch(console.error)

@@ -14,7 +14,7 @@ const run = async () => {
 
   // Browsing
   const page = await browser.newPage();
-  await page.goto('https://3g2upl4pq6kufc4m.onion/');
+  await page.goto('http://facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion/');
   await page.screenshot({path: 'example.png'});
 
   console.log('screenshot captured')
@@ -22,6 +22,6 @@ const run = async () => {
   // Shutting down
   await browser.close();
   await tor.close();
-}
+};
 
-run()
+run().then(console.log)
